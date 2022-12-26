@@ -1,0 +1,73 @@
+/* ОБЛАКО1 */
+.cloud1 {
+  top: 48px;
+  left: 0px;
+  position: relative;
+  animation: slide 1.8s infinite alternate;
+}
+
+/* ОБЛАКО2 */
+.cloud2 {
+  top: -122px;
+  left: 477px;
+  position: relative;
+  animation: slide2 1s infinite alternate;
+}
+
+/* АНИМАЦИЯ ОБЛАКА */
+@keyframes slide {
+  0% {margin-left: 0%; width: 100%;}
+  100% {margin-left: 30%; width: 100%;}
+}
+@keyframes slide2 {
+  0% {margin-left: -30%; width: 100%;}
+  100% {margin-left: 0%; width: 100%;}
+}
+
+/* ЛОГО */
+.logo {
+  top: 115px;
+  position: relative;
+  animation: move 2s linear infinite;
+}
+/* АНИМАЦИЯ ЛОГО */
+@keyframes move {
+  0% {left: 0px; top: 72px; width: 100%;}
+  25% {left: 10%; top: -167px; width: 100%;}
+  50% {left: 20%; top: -2px; width: 100%;}
+  75% {left: 40%; top: 37px; width: 100%;}
+  100% {left: 70%; top: -204px; width: 100%;}
+}
+/* ГОРА1 */
+.mountain {
+  top: 620px;
+  position: absolute;
+  animation: change 4s infinite;
+  animation-play-state: paused;
+}
+.mountain:hover {
+  animation-play-state: running;
+}
+.mountain-color {
+  top: 620px;
+  position: absolute;
+}
+/* АНИМАЦИЯ */
+@keyframes change {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+/* ГОРА2 */
+/* ГОРА3 */
+/* ГОРА4 */
+/* ГОРА5 */
+/* ГОРА6 */
+/* ГОРА7 */
+/* ГОРА8 */
+/* ГОРА9 */
+/* ГОРА10 */
+/* ГОРА11 */
+/* ГОРА12 */
+/* ГОРА13 */
+/* ГОРА14 */
+/* ГОРА15 */
