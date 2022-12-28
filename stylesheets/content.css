@@ -1,73 +1,458 @@
+html {
+  display: block;
+  height: 100%;
+}
+body {
+  width: 1440px;
+  display: block;
+  height: 4570px;
+  margin: 0 auto;
+  position: relative;
+}
 /* ОБЛАКО1 */
 .cloud1 {
-  top: 48px;
+  width: 963px;
+  height: 409px;
+  top: 13px;
   left: 0px;
-  position: relative;
+  position: absolute;
   animation: slide 1.8s infinite alternate;
 }
 
 /* ОБЛАКО2 */
 .cloud2 {
-  top: -122px;
-  left: 477px;
-  position: relative;
+  width: 963px;
+  height: 409px;
+  top: 228px;
+  right: 0px;
+  position: absolute;
   animation: slide2 1s infinite alternate;
 }
 
 /* АНИМАЦИЯ ОБЛАКА */
 @keyframes slide {
-  0% {margin-left: 0%; width: 100%;}
-  100% {margin-left: 30%; width: 100%;}
+  0% {left: 0%;}
+  100% {left: 30%;}
 }
 @keyframes slide2 {
-  0% {margin-left: -30%; width: 100%;}
-  100% {margin-left: 0%; width: 100%;}
+  0% {right: 30%;}
+  100% {right: 0%;}
 }
 
 /* ЛОГО */
 .logo {
+  width: 420px;
+  height: 423px;
   top: 115px;
-  position: relative;
+  position: absolute;
   animation: move 2s linear infinite;
 }
 /* АНИМАЦИЯ ЛОГО */
 @keyframes move {
-  0% {left: 0px; top: 72px; width: 100%;}
-  25% {left: 10%; top: -167px; width: 100%;}
-  50% {left: 20%; top: -2px; width: 100%;}
-  75% {left: 40%; top: 37px; width: 100%;}
-  100% {left: 70%; top: -204px; width: 100%;}
+  0% {left: 0px; top: 873px;}
+  25% {left: 10%; top: 640px;}
+  50% {left: 20%; top: 900px;}
+  75% {left: 40%; top: 700px;}
+  100% {left: 70%; top: 500px;}
 }
 /* ГОРА1 */
-.mountain {
-  top: 620px;
-  position: absolute;
-  animation: change 4s infinite;
-  animation-play-state: paused;
-}
-.mountain:hover {
-  animation-play-state: running;
-}
 .mountain-color {
+  width: 479px;
+  height: 1502px;
   top: 620px;
   position: absolute;
 }
+.mountain {
+  width: 479px;
+  height: 1502px;
+  top: 620px;
+  position: absolute;
+  animation: change 1.5s ease-in-out infinite;
+}
+
 /* АНИМАЦИЯ */
 @keyframes change {
   0% {opacity: 1;}
   100% {opacity: 0;}
 }
 /* ГОРА2 */
+.gora1 {
+  width: 734px;
+  height: 730px;
+  top: 991px;
+  left: 359px;
+  position: absolute;
+}
 /* ГОРА3 */
+.gora2 {
+  width: 336px;
+  height: 760px;
+  top: 740px;
+  left: 917px;
+  position: absolute;
+}
 /* ГОРА4 */
+.gora3 {
+  width: 220px;
+  height: 1365px;
+  top: 544px;
+  right: -4px;
+  position: absolute;
+}
 /* ГОРА5 */
+.gora4 {
+  width: 350px;
+  height: 1143px;
+  top: 1318px;
+  left: 0px;
+  position: absolute;
+}
 /* ГОРА6 */
+.mountain2 {
+  width: 612px;
+  height: 1159px;
+  top: 1464px;
+  left: 289px;
+  position: absolute;
+}
+.glove1 {
+  width: 389px;
+  height: 438px;
+  top: 1764px;
+  left: 458px;
+  position: absolute;
+}
+.glove2 {
+  width: 389px;
+  height: 438px;
+  top: 1764px;
+  left: 458px;
+  position: absolute;
+}
+.glove2:hover {
+  animation: glovve 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes glovve {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ГОРА7 */
+.gora5 {
+  width: 614px;
+  height: 867px;
+  top: 1320px;
+  left: 622px;
+  position: absolute;
+  animation: scale 0.5s ease-out infinite;
+}
+
+@keyframes scale {
+0% {transform: scale(500%);}
+100% {transform: scale(100%);}
+}
 /* ГОРА8 */
+.mountain3 {
+  width: 336px;
+  height: 2079px;
+  top: 1660px;
+  left: -2px;
+  position: absolute;
+}
+.mountain4 {
+  width: 336px;
+  height: 2079px;
+  top: 1660px;
+  left: -2px;
+  animation: change2 1.3s ease-in-out infinite;
+  position: absolute;
+}
+/* АНИМАЦИЯ */
+@keyframes change2 {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ГОРА9 */
+.gora6 {
+  width: 461px;
+  height: 1550px;
+  top: 2524px;
+  left: 0px;
+  position: absolute;
+}
 /* ГОРА10 */
+.gora7 {
+  width: 446px;
+  height: 679px;
+  top: 2261px;
+  left: 364px;
+  position: absolute;
+  animation: scale 1s  infinite;
+}
+@keyframes scale {
+  0% {transform: scale(100%);}
+  100% {transform: scale(130%);}
+}
 /* ГОРА11 */
+.g9 {
+  width: 646px;
+  height: 1179px;
+  top: 1702px;
+  right: 0px;
+  position: absolute;
+}
+.gora8 {
+  width: 646px;
+  height: 1179px;
+  top: 1702px;
+  right: 0px;
+  animation: change3 1s  infinite;
+  position: absolute;
+}
+@keyframes change3 {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ГОРА12 */
+.gora9 {
+  width: 698px;
+  height: 1328px;
+  top: 2280px;
+  right: 314px;
+  position: absolute;
+}
+.nosok1 {
+  width: 362px;
+  height: 319px;
+  top: 3105px;
+  right: 415px;
+  position: absolute;
+}
+.nosok2 {
+  width: 362px;
+  height: 319px;
+  top: 3105px;
+  right: 415px;
+  position: absolute;
+}
+.nosok2:hover {
+  animation: nos 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes nos {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ГОРА13 */
+.gora10 {
+  width: 356px;
+  height: 876px;
+  top: 2464px;
+  right: 0px;
+  position: absolute;
+}
+.var {
+  width: 296px;
+  height: 597px;
+  top: 2606px;
+  right: 0px;
+  position: absolute;
+}
+.var2 {
+  width: 296px;
+  height: 597px;
+  top: 2606px;
+  right: 0px;
+  position: absolute;
+}
+.var2:hover {
+  animation: va 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes va {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ГОРА14 */
+.gora11 {
+  width: 667px;
+  height: 1497px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+.scarf1 {
+  width: 605px;
+  height: 1254px;
+  bottom: 47px;
+  left: 0px;
+  position: absolute;
+}
+.scarf2 {
+  width: 605px;
+  height: 1254px;
+  bottom: 47px;
+  left: 0px;
+  position: absolute;
+}
+.scarf2:hover {
+  animation: scarf 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes scarf {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ГОРА15 */
+.gora12 {
+  width: 863px;
+  height: 1034px;
+  bottom: 0px;
+  left: 262px;
+  position: absolute;
+}
+.hat1 {
+  width: 757px;
+  height: 591px;
+  bottom: 47px;
+  left: 274px;
+  position: absolute;
+}
+.hat2 {
+  width: 757px;
+  height: 591px;
+  bottom: 47px;
+  left: 274px;
+  position: absolute;
+}
+.hat2:hover {
+  animation: hat 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes hat {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+/* ГОРА16 */
+.gora13 {
+  width: 740px;
+  height: 784px;
+  bottom: 747px;
+  left: 698px;
+  overflow: hidden;
+  position: absolute;
+}
+.gora13 img {
+  width: 821px;
+  height: 784px;
+}
+.nos1 {
+  width: 218px;
+  height: 324px;
+  bottom: 966px;
+  left: 969px;
+  position: absolute;
+}
+.nos2 {
+  width: 218px;
+  height: 324px;
+  bottom: 966px;
+  left: 969px;
+  position: absolute;
+}
+.nos2:hover {
+  animation: noss 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes noss {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+/* ГОРА17 */
+.gora14 {
+  width: 236px;
+  height: 695px;
+  bottom: 750px;
+  right: 0px;
+  position: absolute;
+}
+/* ГОРА18 */
+.gora15 {
+  width: 695px;
+  height: 723px;
+  bottom: 315px;
+  left: 744px;
+  overflow: hidden;
+  position: absolute;
+}
+.gora15 img{
+  width: 695px;
+  height: 723px;
+}
+/* ГОРА19 */
+.gora16 {
+  width: 453px;
+  height: 342px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+.content {
+  width: 455px;
+  height: 347px;
+  bottom: 0px;
+  right: 0px;
+  overflow: hidden;
+  position: absolute;
+}
+.content p {
+  top: 70px;
+  left: 62px;
+  font-family: "Roboto";
+  font-size: 42px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #7882FF;
+  position: relative;
+}
+.content img {
+  bottom: 4px;
+  right: 5px;
+  width: 333px;
+  position: absolute;
+}
+.gora16:hover {
+  animation: gorrr 1s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes gorrr {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+/* ТЕКСТ */
+.container {
+  top: 2136px;
+  left: 173px;
+  width: 1417px;
+  height: 50px;
+  position: absolute;
+  background: #ffffff00;
+  overflow: hidden;
+  transform: rotate(-40deg);
+}
+.text {
+  font-family: "Roboto";
+  font-size: 42px;
+  font-weight: bold;
+  color: #FFF;
+  white-space: nowrap;
+  animation: row 5s linear infinite;
+}
+.text::after {
+  content: 'в честь открытия действует скидка 20% на все категории товаров, только с 10.10 по 31.10';
+}
+@keyframes row {
+  0% {transform: translateX(0)}
+    100% {transform: translateX(-50%)}
+}

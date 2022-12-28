@@ -1,0 +1,2846 @@
+@media all and (min-width:1441px) and (max-width:1920px) {
+   html {
+    display: block;
+    height: 100%;
+  }
+  body {
+    width: 1920px;
+    display: block;
+    height: 6067px;
+    margin: 0 auto;
+    position: relative;
+  }
+  /* ОБЛАКО1 */
+  .cloud1 {
+    width: 1251.9px;
+    height: 531.7px;
+    top: 17.3px;
+    left: 0px;
+    position: absolute;
+    animation: slide 1.8s infinite alternate;
+  }
+  .cloud1 img {
+    width: 1251.9px;
+    height: 531.7px;
+  }
+  /* ОБЛАКО2 */
+  .cloud2 {
+    width: 1251.9px;
+    height: 531.7px;
+    top: 296.4px;
+    right: 0px;
+    position: absolute;
+    animation: slide2 1s infinite alternate;
+  }
+  .cloud2 img{
+    width: 1251.9px;
+    height: 531.7px;
+  }
+  /* АНИМАЦИЯ ОБЛАКА */
+  @keyframes slide {
+    0% {left: 0%;}
+    100% {left: 30%;}
+  }
+  @keyframes slide2 {
+    0% {right: 30%;}
+    100% {right: 0%;}
+  }
+  /* ЛОГО */
+  .logo {
+    width: 546px;
+    height: 549.9px;
+    top: 149.5px;
+    position: absolute;
+    animation: move 2s linear infinite;
+  }
+  .logo img {
+    width: 546px;
+    height: 549.9px;
+  }
+  /* АНИМАЦИЯ ЛОГО */
+  @keyframes move {
+    0% {left: 0px; top: 1134.9px;}
+    25% {left: 10%; top: 832px;}
+    50% {left: 20%; top: 1170px;}
+    75% {left: 40%; top: 910px;}
+    100% {left: 70%; top: 650px;}
+  }
+  /* ГОРА1 */
+  .mountain-color {
+    width: 622.7px;
+    height: 1952.6px;
+    top: 806px;
+    position: absolute;
+  }
+  .mountain-color img {
+    width: 622.7px;
+    height: 1952.6px;
+  }
+  .mountain {
+    width: 622.7px;
+    height: 1952.6px;
+    top: 806px;
+    position: absolute;
+    animation: change 1.5s ease-in-out infinite;
+  }
+  .mountain img{
+    width: 622.7px;
+    height: 1952.6px;
+  }
+  /* АНИМАЦИЯ */
+  @keyframes change {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА2 */
+  .gora1 {
+    width: 954.2px;
+    height: 949px;
+    top: 1288.3px;
+    left: 466.7px;
+    position: absolute;
+  }
+  .gora1 img {
+    width: 954.2px;
+    height: 949px;
+  }
+  /* ГОРА3 */
+  .gora2 {
+    width: 470.8px;
+    height: 1036px;
+    top: 959px;
+    left: 1216.1px;
+    position: absolute;
+  }
+  .gora2 img {
+    width: 470.8px;
+    height: 1036px;
+  }
+  /* ГОРА4 */
+  .gora3 {
+    width: 286px;
+    height: 1774.5px;
+    top: 707.2px;
+    right: -5.2px;
+    position: absolute;
+  }
+  .gora3 img {
+    width: 286px;
+    height: 1774.5px;
+  }
+  /* ГОРА5 */
+  .gora4 {
+    width: 455px;
+    height: 1485.9px;
+    top: 1713.4px;
+    left: 0px;
+    position: absolute;
+  }
+  .gora4 img{
+    width: 455px;
+    height: 1485.9px;
+  }
+  /* ГОРА6 */
+  .mountain2 {
+    width: 795.6px;
+    height: 1521.7px;
+    top: 1906.2px;
+    left: 361.7px;
+    position: absolute;
+  }
+  .mountain2 img {
+    width: 847.6px;
+    height: 1558.7px;
+  }
+  .glove1 {
+    width: 511.7px;
+    height: 570.4px;
+    top: 2320.2px;
+    left: 595.4px;
+    position: absolute;
+  }
+  .glove1 img{
+    width: 511.7px;
+    height: 570.4px;
+  }
+  .glove2 {
+    width: 511.7px;
+    height: 570.4px;
+    top: 2320.2px;
+    left: 595.4px;
+    position: absolute;
+  }
+  .glove2 img{
+    width: 511.7px;
+    height: 570.4px;
+  }
+  .glove2:hover {
+    animation: glovve 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes glovve {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА7 */
+  .gora5 {
+    width: 856.2px;
+    height: 1127.1px;
+    top: 1698px;
+    left: 750.6px;
+    position: absolute;
+    animation: scale 0.5s ease-out infinite;
+  }
+  .gora5 img {
+    width: 885.2px;
+    height: 1216.1px;
+  }
+  @keyframes scale {
+  0% {transform: scale(500%);}
+  100% {transform: scale(100%);}
+  }
+  /* ГОРА8 */
+  .mountain3 {
+    width: 436.8px;
+    height: 2702.7px;
+    top: 2158px;
+    left: -2.6px;
+    position: absolute;
+  }
+  .mountain3 img {
+    width: 436.8px;
+    height: 2702.7px;
+  }
+  .mountain4 {
+    width: 436.8px;
+    height: 2702.7px;
+    top: 2158px;
+    left: -2.6px;
+    animation: change2 1.3s ease-in-out infinite;
+    position: absolute;
+  }
+  .mountain4 img {
+    width: 436.8px;
+    height: 2702.7px;
+  }
+  /* АНИМАЦИЯ */
+  @keyframes change2 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА9 */
+  .gora6 {
+    width: 599.3px;
+    height: 2015px;
+    top: 3281.2px;
+    left: 0px;
+    position: absolute;
+  }
+  .gora6 img {
+    width: 599.3px;
+    height: 2015px;
+  }
+  /* ГОРА10 */
+  .gora7 {
+    width: 729.8px;
+    height: 510.7px;
+    top: 2913.3px;
+    left: 434.2px;
+    position: absolute;
+    animation: scale 1s  infinite;
+  }
+  .gora7 img {
+    width: 729.8px;
+    height: 1032.7px;
+  }
+  @keyframes scale {
+    0% {transform: scale(100%);}
+    100% {transform: scale(130%);}
+  }
+  /* ГОРА11 */
+  .g9 {
+    width: 839.8px;
+    height: 1584.7px;
+    top: 2212.6px;
+    right: 0px;
+    position: absolute;
+  }
+  .g9 img {
+    width: 839.8px;
+    height: 1584.7px;
+  }
+  .gora8 {
+    width: 839.8px;
+    height: 1584.7px;
+    top: 2212.6px;
+    right: 0px;
+    animation: change3 1s  infinite;
+    position: absolute;
+  }
+  .gora8 img {
+    width: 839.8px;
+    height: 1584.7px;
+  }
+  @keyframes change3 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА12 */
+  .gora9 {
+    width: 907.4px;
+    height: 1726.4px;
+    top: 2964px;
+    right: 453.2px;
+    position: absolute;
+  }
+  .gora9 img {
+    width: 964.4px;
+    height: 1788.4px;
+  }
+  .nosok1 {
+    width: 470.6px;
+    height: 439.7px;
+    top: 4010.5px;
+    right: 516.5px;
+    position: absolute;
+  }
+  .nosok1 img {
+    width: 500.6px;
+    height: 418.7px;
+  }
+  .nosok2 {
+    width: 470.6px;
+    height: 439.7px;
+    top: 4010.5px;
+    right: 516.5px;
+    position: absolute;
+  }
+  .nosok2 img {
+    width: 500.6px;
+    height: 418.7px;
+  }
+  .nosok2:hover {
+    animation: nos 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes nos {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА13 */
+  .gora10 {
+    width: 462.8px;
+    height: 1138.8px;
+    top: 3203.2px;
+    right: 0px;
+    position: absolute;
+  }
+  .gora10 img {
+    width: 462.8px;
+    height: 1138.8px;
+  }
+  .var {
+    width: 384.8px;
+    height: 776.1px;
+    top: 3387.8px;
+    right: 0px;
+    position: absolute;
+  }
+  .var img {
+    width: 384.8px;
+    height: 776.1px;
+  }
+  .var2 {
+    width: 384.8px;
+    height: 776.1px;
+    top: 3387.8px;
+    right: 0px;
+    position: absolute;
+  }
+  .var2 img {
+    width: 384.8px;
+    height: 776.1px;
+  }
+  .var2:hover {
+    animation: va 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes va {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА14 */
+  .gora11 {
+    width: 963.1px;
+    height: 2068.1px;
+    bottom: 0px;
+    left: -69px;
+    position: absolute;
+  }
+  .gora11 img {
+    width: 963.1px;
+    height: 2068.1px;
+  }
+  .scarf1 {
+    width: 799.5px;
+    height: 1630.2px;
+    bottom: 178.1px;
+    left: -64px;
+    position: absolute;
+  }
+  .scarf1 img {
+    width: 863.5px;
+    height: 1756.2px;
+  }
+  .scarf2 {
+    width: 799.5px;
+    height: 1630.2px;
+    bottom: 178.1px;
+    left: -64px;
+    position: absolute;
+  }
+  .scarf2 img {
+    width: 863.5px;
+    height: 1756.2px;
+  }
+  .scarf2:hover {
+    animation: scarf 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes scarf {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА15 */
+  .gora12 {
+    width: 1244.9px;
+    height: 1430.2px;
+    bottom: 0px;
+    left: 308.6px;
+    position: absolute;
+  }
+  .gora12 img {
+    width: 1244.9px;
+    height: 1430.2px;
+  }
+  .hat1 {
+    width: 984.1px;
+    height: 768.3px;
+    bottom: 61.1px;
+    left: 356.2px;
+    position: absolute;
+  }
+  .hat1 img {
+    width: 984.1px;
+    height: 768.3px;
+  }
+  .hat2 {
+    width: 984.1px;
+    height: 768.3px;
+    bottom: 61.1px;
+    left: 356.2px;
+    position: absolute;
+  }
+  .hat2 img {
+    width: 984.1px;
+    height: 768.3px;
+  }
+  .hat2:hover {
+    animation: hat 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes hat {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА16 */
+  .gora13 {
+    width: 995.3px;
+    height: 1072.2px;
+    bottom: 1007.1px;
+    left: 924.4px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .gora13 img {
+    width: 1140.3px;
+    height: 990.2px;
+  }
+  .nos1 {
+    width: 283.4px;
+    height: 421.2px;
+    bottom: 1375.8px;
+    left: 1278.7px;
+    position: absolute;
+  }
+  .nos1 img {
+    width: 297.4px;
+    height: 412.2px;
+  }
+  .nos2 {
+    width: 283.4px;
+    height: 421.2px;
+    bottom: 1375.8px;
+    left: 1278.7px;
+    position: absolute;
+  }
+  .nos2 img {
+    width: 297.4px;
+    height: 412.2px;
+  }
+  .nos2:hover {
+    animation: noss 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes noss {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА17 */
+  .gora14 {
+    width: 306.8px;
+    height: 903.5px;
+    bottom: 1103px;
+    right: 0px;
+    position: absolute;
+  }
+  .gora14 img {
+    width: 306.8px;
+    height: 903.5px;
+  }
+  /* ГОРА18 */
+  .gora15 {
+    width: 932.5px;
+    height: 1102.9px;
+    bottom: 385.5px;
+    left: 987.2px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .gora15 img {
+    width: 993.5px;
+    height: 1085.9px;
+  }
+  /* ГОРА19 */
+  .gora16 {
+    width: 588.9px;
+    height: 444.6px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+  }
+  .gora16 img{
+    width: 588.9px;
+    height: 444.6px;
+  }
+  .content {
+    width: 591.5px;
+    height: 451.1px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .content p {
+    top: 91px;
+    left: 113.6px;
+    font-family: "Roboto";
+    font-size: 50.6px;
+    margin-top: 3.9px;
+    margin-bottom: 13px;
+    font-weight: bold;
+    color: #7882FF;
+    position: relative;
+  }
+  .content img {
+    bottom: 5.2px;
+    right: 6.5px;
+    width: 396.9px;
+    position: absolute;
+  }
+  .gora16:hover {
+    animation: gorrr 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes gorrr {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ТЕКСТ */
+  .container {
+    top: 2776.8px;
+    left: 271.9px;
+    width: 1842.1px;
+    height: 65px;
+    position: absolute;
+    background: #ffffff00;
+    overflow: hidden;
+    transform: rotate(-40deg);
+  }
+  .text {
+    font-family: "Roboto";
+    font-size: 54.6px;
+    font-weight: bold;
+    color: #FFF;
+    white-space: nowrap;
+    animation: row 5s linear infinite;
+  }
+  .text::after {
+    content: 'в честь открытия действует скидка 20% на все категории товаров, только с 10.10 по 31.10';
+  }
+  @keyframes row {
+    0% {transform: translateX(0)}
+      100% {transform: translateX(-50%)}
+  }
+
+}
+/* ------------------------------------------------------------------- */
+@media all and (min-width:1281px) and (max-width:1440px) {
+  html {
+    display: block;
+    height: 100%;
+  }
+  body {
+    width: 1440px;
+    display: block;
+    height: 4570px;
+    margin: 0 auto;
+    position: relative;
+  }
+  /* ОБЛАКО1 */
+  .cloud1 {
+    width: 963px;
+    height: 409px;
+    top: 13px;
+    left: 0px;
+    position: absolute;
+    animation: slide 1.8s infinite alternate;
+  }
+
+  /* ОБЛАКО2 */
+  .cloud2 {
+    width: 963px;
+    height: 409px;
+    top: 228px;
+    right: 0px;
+    position: absolute;
+    animation: slide2 1s infinite alternate;
+  }
+
+  /* АНИМАЦИЯ ОБЛАКА */
+  @keyframes slide {
+    0% {left: 0%;}
+    100% {left: 30%;}
+  }
+  @keyframes slide2 {
+    0% {right: 30%;}
+    100% {right: 0%;}
+  }
+
+  /* ЛОГО */
+  .logo {
+    width: 420px;
+    height: 423px;
+    top: 115px;
+    position: absolute;
+    animation: move 2s linear infinite;
+  }
+  /* АНИМАЦИЯ ЛОГО */
+  @keyframes move {
+    0% {left: 0px; top: 873px;}
+    25% {left: 10%; top: 640px;}
+    50% {left: 20%; top: 900px;}
+    75% {left: 40%; top: 700px;}
+    100% {left: 70%; top: 500px;}
+  }
+  /* ГОРА1 */
+  .mountain-color {
+    width: 479px;
+    height: 1502px;
+    top: 620px;
+    position: absolute;
+  }
+  .mountain {
+    width: 479px;
+    height: 1502px;
+    top: 620px;
+    position: absolute;
+    animation: change 1.5s ease-in-out infinite;
+  }
+
+  /* АНИМАЦИЯ */
+  @keyframes change {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА2 */
+  .gora1 {
+    width: 734px;
+    height: 730px;
+    top: 991px;
+    left: 359px;
+    position: absolute;
+  }
+  /* ГОРА3 */
+  .gora2 {
+    width: 336px;
+    height: 760px;
+    top: 740px;
+    left: 917px;
+    position: absolute;
+  }
+  /* ГОРА4 */
+  .gora3 {
+    width: 220px;
+    height: 1365px;
+    top: 544px;
+    right: -4px;
+    position: absolute;
+  }
+  /* ГОРА5 */
+  .gora4 {
+    width: 350px;
+    height: 1143px;
+    top: 1318px;
+    left: 0px;
+    position: absolute;
+  }
+  /* ГОРА6 */
+  .mountain2 {
+    width: 612px;
+    height: 1159px;
+    top: 1464px;
+    left: 289px;
+    position: absolute;
+  }
+  .glove1 {
+    width: 389px;
+    height: 438px;
+    top: 1764px;
+    left: 458px;
+    position: absolute;
+  }
+  .glove2 {
+    width: 389px;
+    height: 438px;
+    top: 1764px;
+    left: 458px;
+    position: absolute;
+  }
+  .glove2:hover {
+    animation: glovve 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes glovve {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА7 */
+  .gora5 {
+    width: 614px;
+    height: 867px;
+    top: 1320px;
+    left: 622px;
+    position: absolute;
+    animation: scale 0.5s ease-out infinite;
+  }
+
+  @keyframes scale {
+  0% {transform: scale(500%);}
+  100% {transform: scale(100%);}
+  }
+  /* ГОРА8 */
+  .mountain3 {
+    width: 336px;
+    height: 2079px;
+    top: 1660px;
+    left: -2px;
+    position: absolute;
+  }
+  .mountain4 {
+    width: 336px;
+    height: 2079px;
+    top: 1660px;
+    left: -2px;
+    animation: change2 1.3s ease-in-out infinite;
+    position: absolute;
+  }
+  /* АНИМАЦИЯ */
+  @keyframes change2 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА9 */
+  .gora6 {
+    width: 461px;
+    height: 1550px;
+    top: 2524px;
+    left: 0px;
+    position: absolute;
+  }
+  /* ГОРА10 */
+  .gora7 {
+    width: 446px;
+    height: 679px;
+    top: 2261px;
+    left: 364px;
+    position: absolute;
+    animation: scale 1s  infinite;
+  }
+  @keyframes scale {
+    0% {transform: scale(100%);}
+    100% {transform: scale(130%);}
+  }
+  /* ГОРА11 */
+  .g9 {
+    width: 646px;
+    height: 1179px;
+    top: 1702px;
+    right: 0px;
+    position: absolute;
+  }
+  .gora8 {
+    width: 646px;
+    height: 1179px;
+    top: 1702px;
+    right: 0px;
+    animation: change3 1s  infinite;
+    position: absolute;
+  }
+  @keyframes change3 {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА12 */
+  .gora9 {
+    width: 698px;
+    height: 1328px;
+    top: 2280px;
+    right: 314px;
+    position: absolute;
+  }
+  .nosok1 {
+    width: 362px;
+    height: 319px;
+    top: 3105px;
+    right: 415px;
+    position: absolute;
+  }
+  .nosok2 {
+    width: 362px;
+    height: 319px;
+    top: 3105px;
+    right: 415px;
+    position: absolute;
+  }
+  .nosok2:hover {
+    animation: nos 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes nos {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА13 */
+  .gora10 {
+    width: 356px;
+    height: 876px;
+    top: 2464px;
+    right: 0px;
+    position: absolute;
+  }
+  .var {
+    width: 296px;
+    height: 597px;
+    top: 2606px;
+    right: 0px;
+    position: absolute;
+  }
+  .var2 {
+    width: 296px;
+    height: 597px;
+    top: 2606px;
+    right: 0px;
+    position: absolute;
+  }
+  .var2:hover {
+    animation: va 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes va {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА14 */
+  .gora11 {
+    width: 667px;
+    height: 1497px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+  }
+  .scarf1 {
+    width: 605px;
+    height: 1254px;
+    bottom: 47px;
+    left: 0px;
+    position: absolute;
+  }
+  .scarf2 {
+    width: 605px;
+    height: 1254px;
+    bottom: 47px;
+    left: 0px;
+    position: absolute;
+  }
+  .scarf2:hover {
+    animation: scarf 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes scarf {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА15 */
+  .gora12 {
+    width: 863px;
+    height: 1034px;
+    bottom: 0px;
+    left: 262px;
+    position: absolute;
+  }
+  .hat1 {
+    width: 757px;
+    height: 591px;
+    bottom: 47px;
+    left: 274px;
+    position: absolute;
+  }
+  .hat2 {
+    width: 757px;
+    height: 591px;
+    bottom: 47px;
+    left: 274px;
+    position: absolute;
+  }
+  .hat2:hover {
+    animation: hat 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes hat {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА16 */
+  .gora13 {
+    width: 740px;
+    height: 784px;
+    bottom: 747px;
+    left: 698px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .gora13 img {
+    width: 821px;
+    height: 784px;
+  }
+  .nos1 {
+    width: 218px;
+    height: 324px;
+    bottom: 966px;
+    left: 969px;
+    position: absolute;
+  }
+  .nos2 {
+    width: 218px;
+    height: 324px;
+    bottom: 966px;
+    left: 969px;
+    position: absolute;
+  }
+  .nos2:hover {
+    animation: noss 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes noss {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА17 */
+  .gora14 {
+    width: 236px;
+    height: 695px;
+    bottom: 750px;
+    right: 0px;
+    position: absolute;
+  }
+  /* ГОРА18 */
+  .gora15 {
+    width: 695px;
+    height: 723px;
+    bottom: 315px;
+    left: 744px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .gora15 img{
+    width: 695px;
+    height: 723px;
+  }
+  /* ГОРА19 */
+  .gora16 {
+    width: 453px;
+    height: 342px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+  }
+  .content {
+    width: 455px;
+    height: 347px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .content p {
+    top: 70px;
+    left: 62px;
+    font-family: "Roboto";
+    font-size: 42px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #7882FF;
+    position: relative;
+  }
+  .content img {
+    bottom: 4px;
+    right: 5px;
+    width: 333px;
+    position: absolute;
+  }
+  .gora16:hover {
+    animation: gorrr 1s ease;
+    animation-fill-mode: forwards;
+  }
+  @keyframes gorrr {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ТЕКСТ */
+  .container {
+    top: 2136px;
+    left: 173px;
+    width: 1417px;
+    height: 50px;
+    position: absolute;
+    background: #ffffff00;
+    overflow: hidden;
+    transform: rotate(-40deg);
+  }
+  .text {
+    font-family: "Roboto";
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFF;
+    white-space: nowrap;
+    animation: row 5s linear infinite;
+  }
+  .text::after {
+    content: 'в честь открытия действует скидка 20% на все категории товаров, только с 10.10 по 31.10';
+  }
+  @keyframes row {
+    0% {transform: translateX(0)}
+      100% {transform: translateX(-50%)}
+  }
+}
+/* -------------------------------------------------------- */
+@media all and (min-width:1025px) and (max-width:1280px) {
+  body {
+    width: 1280px;
+    height: 4042px;
+  }
+  /* ОБЛАКО1 */
+  .cloud1 {
+    width: 834px;
+    height: 354px;
+    top: 11.3px;
+    left: 0px;
+  }
+  .cloud1 img {
+    width: 834px;
+    height: 354px;
+  }
+  /* ОБЛАКО2 */
+  .cloud2 {
+    width: 834px;
+    height: 354px;
+    top: 197px;
+    right: 0px;
+  }
+  .cloud2 img{
+    width: 834px;
+    height: 354px;
+  }
+/* ЛОГО */
+  .logo {
+    width: 364px;
+    height: 366px;
+    top: 99px;
+  }
+  .logo img {
+    width: 364px;
+    height: 366px;
+  }
+  /* АНИМАЦИЯ ЛОГО */
+  @keyframes move {
+    0% {left: 0px; top: 756px;}
+    25% {left: 10%; top: 554px;}
+    50% {left: 20%; top: 780px;}
+    75% {left: 40%; top: 606px;}
+    100% {left: 70%; top: 433px;}
+  }
+  /* ГОРА1 */
+  .mountain-color {
+    width: 414px;
+    height: 1301px;
+    top: 537px;
+  }
+  .mountain-color img {
+    width: 414px;
+    height: 1301px;
+  }
+  .mountain {
+    width: 414px;
+    height: 1301px;
+    top: 537px;
+  }
+  .mountain img{
+    width: 414px;
+    height: 1301px;
+  }
+  /* ГОРА2 */
+  .gora1 {
+    width: 636px;
+    height: 632px;
+    top: 858px;
+    left: 310px;
+  }
+  .gora1 img {
+    width: 636px;
+    height: 632px;
+  }
+  /* ГОРА3 */
+  .gora2 {
+    width: 313px;
+    height: 690px;
+    top: 639px;
+    left: 810px;
+  }
+  .gora2 img {
+    width: 313px;
+    height: 690px;
+  }
+  /* ГОРА4 */
+  .gora3 {
+    width: 190px;
+    height: 1182px;
+    top: 471px;
+    right: -3px;
+  }
+  .gora3 img {
+    width: 190px;
+    height: 1182px;
+  }
+  /* ГОРА5 */
+  .gora4 {
+    width: 303px;
+    height: 990px;
+    top: 1141px;
+    left: 0px;
+  }
+  .gora4 img{
+    width: 303px;
+    height: 990px;
+  }
+  /* ГОРА6 */
+  .mountain2 {
+    width: 530px;
+    height: 1014px;
+    top: 1270px;
+    left: 240px;
+  }
+  .mountain2 img {
+    width: 564px;
+    height: 1038px;
+  }
+  .glove1 {
+    width: 340px;
+    height: 380px;
+    top: 1546px;
+    left: 396px;
+  }
+  .glove1 img{
+    width: 340px;
+    height: 380px;
+  }
+  .glove2 {
+    width: 340px;
+    height: 380px;
+    top: 1546px;
+    left: 396px;
+  }
+  .glove2 img{
+    width: 340px;
+    height: 380px;
+  }
+  /* ГОРА7 */
+  .gora5 {
+    width: 570px;
+    height: 751px;
+    top: 1132px;
+    left: 500px;
+  }
+  .gora5 img {
+    width: 590px;
+    height: 810px;
+  }
+  /* ГОРА8 */
+  .mountain3 {
+    width: 290px;
+    height: 1801px;
+    top: 1438px;
+    left: -1.3px;
+  }
+  .mountain3 img {
+    width: 290px;
+    height: 1801px;
+  }
+  .mountain4 {
+    width: 290px;
+    height: 1801px;
+    top: 1438px;
+    left: -1.3px;
+  }
+  .mountain4 img {
+    width: 290px;
+    height: 1801px;
+  }
+  /* ГОРА9 */
+  .gora6 {
+    width: 399px;
+    height: 1343px;
+    top: 2187px;
+    left: 0px;
+  }
+  .gora6 img {
+    width: 399px;
+    height: 1343px;
+  }
+  /* ГОРА10 */
+  .gora7 {
+    width: 486px;
+    height: 340px;
+    top: 1930px;
+    left: 289px;
+  }
+  .gora7 img {
+    width: 496px;
+    height: 688px;
+  }
+  /* ГОРА11 */
+  .g9 {
+    width: 559px;
+    height: 1056px;
+    top: 1474px;
+    right: 0px;
+  }
+  .g9 img {
+    width: 559px;
+    height: 1056px;
+  }
+  .gora8 {
+    width: 559px;
+    height: 1056px;
+    top: 1474px;
+    right: 0px;
+  }
+  .gora8 img {
+    width: 559px;
+    height: 1056px;
+  }
+  /* ГОРА12 */
+  .gora9 {
+    width: 604px;
+    height: 1150px;
+    top: 1976px;
+    right: 302px;
+  }
+  .gora9 img {
+    width: 642px;
+    height: 1192px;
+  }
+  .nosok1 {
+    width: 313px;
+    height: 292px;
+    top: 2673px;
+    right: 344px;
+  }
+  .nosok1 img {
+    width: 333px;
+    height: 278px;
+  }
+  .nosok2 {
+    width: 313px;
+    height: 292px;
+    top: 2673px;
+    right: 344px;
+  }
+  .nosok2 img {
+    width: 333px;
+    height: 278px;
+  }
+  /* ГОРА13 */
+  .gora10 {
+    width: 308px;
+    height: 758px;
+    top: 2135px;
+    right: 0px;
+  }
+  .gora10 img {
+    width: 305px;
+    height: 758px;
+  }
+  .var {
+    width: 256px;
+    height: 517px;
+    top: 2258px;
+    right: 0px;
+  }
+  .var img {
+    width: 256px;
+    height: 517px;
+  }
+  .var2 {
+    width: 256px;
+    height: 517px;
+    top: 2258px;
+    right: 0px;
+  }
+  .var2 img {
+    width: 256px;
+    height: 517px;
+  }
+  /* ГОРА14 */
+  .gora11 {
+    width: 642px;
+    height: 1378px;
+    bottom: 0px;
+    left: -46px;
+  }
+  .gora11 img {
+    width: 642px;
+    height: 1378px;
+  }
+  .scarf1 {
+    width: 532px;
+    height: 1086px;
+    bottom: 118px;
+    left: -42px;
+  }
+  .scarf1 img {
+    width: 575px;
+    height: 1170px;
+  }
+  .scarf2 {
+    width: 532px;
+    height: 1086px;
+    bottom: 118px;
+    left: -42px;
+  }
+  .scarf2 img {
+    width: 575px;
+    height: 1170px;
+  }
+  /* ГОРА15 */
+  .gora12 {
+    width: 829px;
+    height: 953px;
+    bottom: 0px;
+    left: 205px;
+  }
+  .gora12 img {
+    width: 829px;
+    height: 953px;
+  }
+  .hat1 {
+    width: 656px;
+    height: 512px;
+    bottom: 40px;
+    left: 237px;
+  }
+  .hat1 img {
+    width: 656px;
+    height: 512px;
+  }
+  .hat2 {
+    width: 656px;
+    height: 512px;
+    bottom: 40px;
+    left: 237px;
+  }
+  .hat2 img {
+    width: 656px;
+    height: 512px;
+  }
+  /* ГОРА16 */
+  .gora13 {
+    width: 663px;
+    height: 714px;
+    bottom: 671px;
+    left: 616px;
+  }
+  .gora13 img {
+    width: 760px;
+    height: 660px;
+  }
+  .nos1 {
+    width: 188px;
+    height: 280px;
+    bottom: 916px;
+    left: 852px;
+  }
+  .nos1 img {
+    width: 198px;
+    height: 274px;
+  }
+  .nos2 {
+    width: 188px;
+    height: 280px;
+    bottom: 916px;
+    left: 852px;
+  }
+  .nos2 img {
+    width: 198px;
+    height: 274px;
+  }
+  /* ГОРА17 */
+  .gora14 {
+    width: 204px;
+    height: 602px;
+    bottom: 735px;
+    right: 0px;
+  }
+  .gora14 img {
+    width: 204px;
+    height: 602px;
+  }
+  /* ГОРА18 */
+  .gora15 {
+    width: 621px;
+    height: 734px;
+    bottom: 256px;
+    left: 658px;
+  }
+  .gora15 img {
+    width: 662px;
+    height: 723px;
+  }
+  /* ГОРА19 */
+  .gora16 {
+    width: 392px;
+    height: 296px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .gora16 img{
+    width: 392px;
+    height: 296px;
+  }
+  .content {
+    width: 394px;
+    height: 300px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .content p {
+    top: 60px;
+    left: 75px;
+    font-size: 33px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+  .content img {
+    bottom: 3px;
+    right: 4px;
+    width: 264px;
+  }
+  /* ТЕКСТ */
+  .container {
+    top: 1850px;
+    left: 180px;
+    width: 1228px;
+    height: 43px;
+  }
+  .text {
+    font-size: 36px;
+  }
+}
+/* -------------------------------------------------------- */
+@media all and (min-width:835px) and (max-width:1024px) {
+  body {
+    width: 1024px;
+    height: 3232px;
+  }
+  /* ОБЛАКО1 */
+  .cloud1 {
+    width: 667px;
+    height: 283px;
+    top: 8px;
+    left: 0px;
+  }
+  .cloud1 img {
+    width: 667px;
+    height: 283px;
+  }
+  /* ОБЛАКО2 */
+  .cloud2 {
+    width: 667px;
+    height: 283px;
+    top: 157px;
+    right: 0px;
+  }
+  .cloud2 img{
+    width: 667px;
+    height: 283px;
+  }
+/* ЛОГО */
+  .logo {
+    width: 242px;
+    height: 244px;
+    top: 79px;
+  }
+  .logo img {
+    width: 242px;
+    height: 244px;
+  }
+  /* АНИМАЦИЯ ЛОГО */
+  @keyframes move {
+    0% {left: 0px; top: 604px;}
+    25% {left: 10%; top: 443px;}
+    50% {left: 20%; top: 624px;}
+    75% {left: 40%; top: 484px;}
+    100% {left: 70%; top: 346px;}
+  }
+  /* ГОРА1 */
+  .mountain-color {
+    width: 331px;
+    height: 1040px;
+    top: 429px;
+  }
+  .mountain-color img {
+    width: 331px;
+    height: 1040px;
+  }
+  .mountain {
+    width: 331px;
+    height: 1040px;
+    top: 429px;
+  }
+  .mountain img{
+    width: 331px;
+    height: 1040px;
+  }
+  /* ГОРА2 */
+  .gora1 {
+    width: 508px;
+    height: 505px;
+    top: 686px;
+    left: 248px;
+  }
+  .gora1 img {
+    width: 508px;
+    height: 505px;
+  }
+  /* ГОРА3 */
+  .gora2 {
+    width: 250px;
+    height: 552px;
+    top: 511px;
+    left: 648px;
+  }
+  .gora2 img {
+    width: 250px;
+    height: 552px;
+  }
+  /* ГОРА4 */
+  .gora3 {
+    width: 152px;
+    height: 945px;
+    top: 376px;
+    right: -2.4px;
+  }
+  .gora3 img {
+    width: 152px;
+    height: 945px;
+  }
+  /* ГОРА5 */
+  .gora4 {
+    width: 242px;
+    height: 792px;
+    top: 912px;
+    left: 0px;
+  }
+  .gora4 img{
+    width: 242px;
+    height: 792px;
+  }
+  /* ГОРА6 */
+  .mountain2 {
+    width: 424px;
+    height: 811px;
+    top: 1016px;
+    left: 192px;
+  }
+  .mountain2 img {
+    width: 451px;
+    height: 830px;
+  }
+  .glove1 {
+    width: 272px;
+    height: 304px;
+    top: 1236px;
+    left: 316px;
+  }
+  .glove1 img{
+    width: 272px;
+    height: 304px;
+  }
+  .glove2 {
+    width: 272px;
+    height: 304px;
+    top: 1236px;
+    left: 316px;
+  }
+  .glove2 img{
+    width: 272px;
+    height: 304px;
+  }
+  /* ГОРА7 */
+  .gora5 {
+    width: 456px;
+    height: 600px;
+    top: 905px;
+    left: 400px;
+  }
+  .gora5 img {
+    width: 472px;
+    height: 648px;
+  }
+  /* ГОРА8 */
+  .mountain3 {
+    width: 232px;
+    height: 1440px;
+    top: 1150px;
+    left: -1.04px;
+  }
+  .mountain3 img {
+    width: 232px;
+    height: 1440px;
+  }
+  .mountain4 {
+    width: 232px;
+    height: 1440px;
+    top: 1150px;
+    left: -1.04px;
+  }
+  .mountain4 img {
+    width: 232px;
+    height: 1440px;
+  }
+  /* ГОРА9 */
+  .gora6 {
+    width: 319px;
+    height: 1074px;
+    top: 1749px;
+    left: 0px;
+  }
+  .gora6 img {
+    width: 319px;
+    height: 1074px;
+  }
+  /* ГОРА10 */
+  .gora7 {
+    width: 388px;
+    height: 272px;
+    top: 1545px;
+    left: 231px;
+  }
+  .gora7 img {
+    width: 396px;
+    height: 550px;
+  }
+  /* ГОРА11 */
+  .g9 {
+    width: 447px;
+    height: 844px;
+    top: 1179px;
+    right: 0px;
+  }
+  .g9 img {
+    width: 447px;
+    height: 844px;
+  }
+  .gora8 {
+    width: 447px;
+    height: 844px;
+    top: 1179px;
+    right: 0px;
+  }
+  .gora8 img {
+    width: 447px;
+    height: 844px;
+  }
+  /* ГОРА12 */
+  .gora9 {
+    width: 483px;
+    height: 920px;
+    top: 1580px;
+    right: 241px;
+  }
+  .gora9 img {
+    width: 513px;
+    height: 953px;
+  }
+  .nosok1 {
+    width: 250px;
+    height: 233px;
+    top: 2138px;
+    right: 275px;
+  }
+  .nosok1 img {
+    width: 266px;
+    height: 222px;
+  }
+  .nosok2 {
+    width: 250px;
+    height: 233px;
+    top: 2138px;
+    right: 275px;
+  }
+  .nosok2 img {
+    width: 266px;
+    height: 222px;
+  }
+  /* ГОРА13 */
+  .gora10 {
+    width: 246px;
+    height: 606px;
+    top: 1708px;
+    right: 0px;
+  }
+  .gora10 img {
+    width: 244px;
+    height: 606px;
+  }
+  .var {
+    width: 204px;
+    height: 413px;
+    top: 1806px;
+    right: 0px;
+  }
+  .var img {
+    width: 204px;
+    height: 413px;
+  }
+  .var2 {
+    width: 204px;
+    height: 413px;
+    top: 1806px;
+    right: 0px;
+  }
+  .var2 img {
+    width: 204px;
+    height: 413px;
+  }
+  /* ГОРА14 */
+  .gora11 {
+    width: 513px;
+    height: 1102px;
+    bottom: 0px;
+    left: -36px;
+  }
+  .gora11 img {
+    width: 513px;
+    height: 1102px;
+  }
+  .scarf1 {
+    width: 425px;
+    height: 868px;
+    bottom: 94px;
+    left: -33px;
+  }
+  .scarf1 img {
+    width: 460px;
+    height: 936px;
+  }
+  .scarf2 {
+    width: 425px;
+    height: 868px;
+    bottom: 94px;
+    left: -33px;
+  }
+  .scarf2 img {
+    width: 460px;
+    height: 936px;
+  }
+  /* ГОРА15 */
+  .gora12 {
+    width: 663px;
+    height: 762px;
+    bottom: 0px;
+    left: 164px;
+  }
+  .gora12 img {
+    width: 663px;
+    height: 762px;
+  }
+  .hat1 {
+    width: 524px;
+    height: 409px;
+    bottom: 32px;
+    left: 189px;
+  }
+  .hat1 img {
+    width: 524px;
+    height: 409px;
+  }
+  .hat2 {
+    width: 524px;
+    height: 409px;
+    bottom: 32px;
+    left: 189px;
+  }
+  .hat2 img {
+    width: 524px;
+    height: 409px;
+  }
+  /* ГОРА16 */
+  .gora13 {
+    width: 530px;
+    height: 571px;
+    bottom: 536px;
+    left: 492px;
+  }
+  .gora13 img {
+    width: 608px;
+    height: 528px;
+  }
+  .nos1 {
+    width: 150px;
+    height: 224px;
+    bottom: 732px;
+    left: 681px;
+  }
+  .nos1 img {
+    width: 158px;
+    height: 219px;
+  }
+  .nos2 {
+    width: 150px;
+    height: 224px;
+    bottom: 732px;
+    left: 681px;
+  }
+  .nos2 img {
+    width: 158px;
+    height: 219px;
+  }
+  /* ГОРА17 */
+  .gora14 {
+    width: 163px;
+    height: 481px;
+    bottom: 586px;
+    right: 0px;
+  }
+  .gora14 img {
+    width: 163px;
+    height: 481px;
+  }
+  /* ГОРА18 */
+  .gora15 {
+    width: 496px;
+    height: 587px;
+    bottom: 204px;
+    left: 526px;
+  }
+  .gora15 img {
+    width: 529px;
+    height: 578px;
+  }
+  /* ГОРА19 */
+  .gora16 {
+    width: 313px;
+    height: 236px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .gora16 img{
+    width: 313px;
+    height: 236px;
+  }
+  .content {
+    width: 315px;
+    height: 240px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .content p {
+    top: 48px;
+    left: 60px;
+    font-size: 26px;
+    margin-top: 1.6px;
+    margin-bottom: 6px;
+  }
+  .content img {
+    bottom: 2.4px;
+    right: 3.2px;
+    width: 211px;
+  }
+  /* ТЕКСТ */
+  .container {
+    top: 1480px;
+    left: 144px;
+    width: 982px;
+    height: 34px;
+  }
+  .text {
+    font-size: 28px;
+  }
+}
+/* ---------------------------------------------------------- */
+@media all and (min-width:391px) and (max-width:834px) {
+  body {
+    width: 834px;
+    height: 2645px;
+  }
+  /* ОБЛАКО1 */
+  .cloud1 {
+    width: 555px;
+    height: 235px;
+    top: 6px;
+    left: 0px;
+  }
+  .cloud1 img {
+    width: 555px;
+    height: 235px;
+  }
+  /* ОБЛАКО2 */
+  .cloud2 {
+    width: 555px;
+    height: 235px;
+    top: 130px;
+    right: 0px;
+  }
+  .cloud2 img{
+    width: 555px;
+    height: 235px;
+  }
+/* ЛОГО */
+  .logo {
+    width: 201px;
+    height: 203px;
+    top: 65px;
+  }
+  .logo img {
+    width: 201px;
+    height: 203px;
+  }
+  /* АНИМАЦИЯ ЛОГО */
+  @keyframes move {
+    0% {left: 0px; top: 503px;}
+    25% {left: 10%; top: 369px;}
+    50% {left: 20%; top: 513px;}
+    75% {left: 40%; top: 403px;}
+    100% {left: 70%; top: 288px;}
+  }
+  /* ГОРА1 */
+  .mountain-color {
+    width: 275px;
+    height: 866px;
+    top: 357px;
+  }
+  .mountain-color img {
+    width: 275px;
+    height: 866px;
+  }
+  .mountain {
+    width: 275px;
+    height: 866px;
+    top: 357px;
+  }
+  .mountain img{
+    width: 275px;
+    height: 866px;
+  }
+  /* ГОРА2 */
+  .gora1 {
+    width: 423px;
+    height: 420px;
+    top: 571px;
+    left: 206px;
+  }
+  .gora1 img {
+    width: 423px;
+    height: 420px;
+  }
+  /* ГОРА3 */
+  .gora2 {
+    width: 208px;
+    height: 460px;
+    top: 425px;
+    left: 540px;
+  }
+  .gora2 img {
+    width: 208px;
+    height: 460px;
+  }
+  /* ГОРА4 */
+  .gora3 {
+    width: 126px;
+    height: 787px;
+    top: 313px;
+    right: -2px;
+  }
+  .gora3 img {
+    width: 126px;
+    height: 787px;
+  }
+  /* ГОРА5 */
+  .gora4 {
+    width: 201px;
+    height: 660px;
+    top: 760px;
+    left: 0px;
+  }
+  .gora4 img{
+    width: 201px;
+    height: 660px;
+  }
+  /* ГОРА6 */
+  .mountain2 {
+    width: 353px;
+    height: 648px;
+    top: 846px;
+    left: 160px;
+  }
+  .mountain2 img {
+    width: 375px;
+    height: 691px;
+  }
+  .glove1 {
+    width: 226px;
+    height: 253px;
+    top: 1030px;
+    left: 263px;
+  }
+  .glove1 img{
+    width: 226px;
+    height: 253px;
+  }
+  .glove2 {
+    width: 226px;
+    height: 253px;
+    top: 1030px;
+    left: 263px;
+    animation: an 1s linear infinite;
+  }
+  .glove2 img{
+    width: 226px;
+    height: 253px;
+  }
+  @keyframes an {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА7 */
+  .gora5 {
+    width: 380px;
+    height: 500px;
+    top: 754px;
+    left: 333px;
+  }
+  .gora5 img {
+    width: 393px;
+    height: 540px;
+  }
+  /* ГОРА8 */
+  .mountain3 {
+    width: 193px;
+    height: 1200px;
+    top: 958px;
+    left: -0.8px;
+  }
+  .mountain3 img {
+    width: 193px;
+    height: 1200px;
+  }
+  .mountain4 {
+    width: 193px;
+    height: 1200px;
+    top: 958px;
+    left: -0.8px;
+  }
+  .mountain4 img {
+    width: 193px;
+    height: 1200px;
+  }
+  /* ГОРА9 */
+  .gora6 {
+    width: 265px;
+    height: 895px;
+    top: 1457px;
+    left: 0px;
+  }
+  .gora6 img {
+    width: 265px;
+    height: 895px;
+  }
+  /* ГОРА10 */
+  .gora7 {
+    width: 323px;
+    height: 226px;
+    top: 1287px;
+    left: 192px;
+  }
+  .gora7 img {
+    width: 330px;
+    height: 458px;
+  }
+  /* ГОРА11 */
+  .g9 {
+    width: 372px;
+    height: 703px;
+    top: 982px;
+    right: 0px;
+  }
+  .g9 img {
+    width: 372px;
+    height: 703px;
+  }
+  .gora8 {
+    width: 372px;
+    height: 703px;
+    top: 982px;
+    right: 0px;
+  }
+  .gora8 img {
+    width: 372px;
+    height: 703px;
+  }
+  /* ГОРА12 */
+  .gora9 {
+    width: 402px;
+    height: 766px;
+    top: 1316px;
+    right: 200px;
+  }
+  .gora9 img {
+    width: 427px;
+    height: 794px;
+  }
+  .nosok1 {
+    width: 208px;
+    height: 194px;
+    top: 1781px;
+    right: 229px;
+  }
+  .nosok1 img {
+    width: 221px;
+    height: 185px;
+  }
+  .nosok2 {
+    width: 208px;
+    height: 194px;
+    top: 1781px;
+    right: 229px;
+    animation: ani 1s linear infinite;
+  }
+  .nosok2 img {
+    width: 221px;
+    height: 185px;
+  }
+  @keyframes ani {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА13 */
+  .gora10 {
+    width: 205px;
+    height: 505px;
+    top: 1423px;
+    right: 0px;
+  }
+  .gora10 img {
+    width: 203px;
+    height: 505px;
+  }
+  .var {
+    width: 170px;
+    height: 317px;
+    top: 1505px;
+    right: 0px;
+  }
+  .var img {
+    width: 170px;
+    height: 317px;
+  }
+  .var2 {
+    width: 170px;
+    height: 317px;
+    top: 1505px;
+    right: 0px;
+    animation: anim 1s linear infinite;
+  }
+  .var2 img {
+    width: 170px;
+    height: 317px;
+  }
+  @keyframes anim {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА14 */
+  .gora11 {
+    width: 427px;
+    height: 918px;
+    bottom: 0px;
+    left: -30px;
+  }
+  .gora11 img {
+    width: 427px;
+    height: 918px;
+  }
+  .scarf1 {
+    width: 354px;
+    height: 723px;
+    bottom: 78px;
+    left: -27px;
+  }
+  .scarf1 img {
+    width: 383px;
+    height: 780px;
+  }
+  .scarf2 {
+    width: 354px;
+    height: 723px;
+    bottom: 78px;
+    left: -27px;
+    animation: anima 1s linear infinite;
+  }
+  .scarf2 img {
+    width: 383px;
+    height: 780px;
+  }
+  @keyframes anima {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА15 */
+  .gora12 {
+    width: 552px;
+    height: 635px;
+    bottom: 0px;
+    left: 136px;
+  }
+  .gora12 img {
+    width: 552px;
+    height: 635px;
+  }
+  .hat1 {
+    width: 436px;
+    height: 340px;
+    bottom: 26px;
+    left: 157px;
+  }
+  .hat1 img {
+    width: 436px;
+    height: 340px;
+  }
+  .hat2 {
+    width: 436px;
+    height: 340px;
+    bottom: 26px;
+    left: 157px;
+    animation: animat 1s linear infinite;
+  }
+  .hat2 img {
+    width: 436px;
+    height: 340px;
+  }
+  @keyframes animat {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА16 */
+  .gora13 {
+    width: 420px;
+    height: 475px;
+    bottom: 446px;
+    left: 410px;
+  }
+  .gora13 img {
+    width: 506px;
+    height: 440px;
+  }
+  .nos1 {
+    width: 125px;
+    height: 186px;
+    bottom: 610px;
+    left: 567px;
+  }
+  .nos1 img {
+    width: 131px;
+    height: 182px;
+  }
+  .nos2 {
+    width: 125px;
+    height: 186px;
+    bottom: 610px;
+    left: 567px;
+    animation: animati 1s linear infinite;
+  }
+  .nos2 img {
+    width: 131px;
+    height: 182px;
+  }
+  @keyframes animati {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА17 */
+  .gora14 {
+    width: 135px;
+    height: 400px;
+    bottom: 488px;
+    right: 0px;
+  }
+  .gora14 img {
+    width: 135px;
+    height: 400px;
+  }
+  /* ГОРА18 */
+  .gora15 {
+    width: 396px;
+    height: 489px;
+    bottom: 170px;
+    left: 438px;
+  }
+  .gora15 img {
+    width: 440px;
+    height: 481px;
+  }
+  /* ГОРА19 */
+  .gora16 {
+    width: 260px;
+    height: 196px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .gora16 img{
+    width: 260px;
+    height: 196px;
+  }
+  .content {
+    width: 262px;
+    height: 200px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .content p {
+    top: 40px;
+    left: 60px;
+    font-size: 21px;
+    margin-top: 1.3px;
+    margin-bottom: 5px;
+  }
+  .content img {
+    bottom: 2px;
+    right: 2.6px;
+    width: 160px;
+  }
+  /* ТЕКСТ */
+  .container {
+    top: 1233px;
+    left: 120px;
+    width: 818px;
+    height: 28px;
+  }
+  .text {
+    font-size: 23px;
+  }
+}
+/* ------------------------------------------------------------ */
+@media all and (min-width:321px) and (max-width:390px) {
+  body {
+    width: 390px;
+    height: 1239px;
+  }
+  /* ОБЛАКО1 */
+  .cloud1 {
+    width: 264px;
+    height: 111px;
+    top: 2.8px;
+    left: 0px;
+  }
+  .cloud1 img {
+    width: 264px;
+    height: 111px;
+  }
+  /* ОБЛАКО2 */
+  .cloud2 {
+    width: 264px;
+    height: 111px;
+    top: 61px;
+    right: 0px;
+  }
+  .cloud2 img{
+    width: 264px;
+    height: 111px;
+  }
+/* ЛОГО */
+  .logo {
+    width: 95px;
+    height: 426px;
+    top: 30px;
+  }
+  .logo img {
+    width: 95px;
+    height: 426px;
+  }
+  /* АНИМАЦИЯ ЛОГО */
+  @keyframes move {
+    0% {left: 0px; top: 239px;}
+    25% {left: 10%; top: 175px;}
+    50% {left: 20%; top: 244px;}
+    75% {left: 40%; top: 191px;}
+    100% {left: 70%; top: 137px;}
+  }
+  /* ГОРА1 */
+  .mountain-color {
+    width: 130px;
+    height: 412px;
+    top: 170px;
+  }
+  .mountain-color img {
+    width: 130px;
+    height: 412px;
+  }
+  .mountain {
+    width: 130px;
+    height: 412px;
+    top: 170px;
+  }
+  .mountain img{
+    width: 130px;
+    height: 412px;
+  }
+  /* ГОРА2 */
+  .gora1 {
+    width: 201px;
+    height: 200px;
+    top: 271px;
+    left: 98px;
+  }
+  .gora1 img {
+    width: 201px;
+    height: 200px;
+  }
+  /* ГОРА3 */
+  .gora2 {
+    width: 99px;
+    height: 219px;
+    top: 202px;
+    left: 257px;
+  }
+  .gora2 img {
+    width: 99px;
+    height: 219px;
+  }
+  /* ГОРА4 */
+  .gora3 {
+    width: 60px;
+    height: 374px;
+    top: 149px;
+    right: -0.9px;
+  }
+  .gora3 img {
+    width: 60px;
+    height: 374px;
+  }
+  /* ГОРА5 */
+  .gora4 {
+    width: 95px;
+    height: 314px;
+    top: 361px;
+    left: 0px;
+  }
+  .gora4 img{
+    width: 95px;
+    height: 314px;
+  }
+  /* ГОРА6 */
+  .mountain2 {
+    width: 168px;
+    height: 308px;
+    top: 402px;
+    left: 76px;
+  }
+  .mountain2 img {
+    width: 178px;
+    height: 329px;
+  }
+  .glove1 {
+    width: 107px;
+    height: 120px;
+    top: 490px;
+    left: 125px;
+  }
+  .glove1 img{
+    width: 107px;
+    height: 120px;
+  }
+  .glove2 {
+    width: 107px;
+    height: 120px;
+    top: 490px;
+    left: 125px;
+    animation: an 1s linear infinite;
+  }
+  .glove2 img{
+    width: 107px;
+    height: 120px;
+  }
+  @keyframes an {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА7 */
+  .gora5 {
+    width: 180px;
+    height: 238px;
+    top: 359px;
+    left: 158px;
+  }
+  .gora5 img {
+    width: 187px;
+    height: 257px;
+  }
+  /* ГОРА8 */
+  .mountain3 {
+    width: 91px;
+    height: 571px;
+    top: 456px;
+    left: -0.3px;
+  }
+  .mountain3 img {
+    width: 91px;
+    height: 571px;
+  }
+  .mountain4 {
+    width: 91px;
+    height: 571px;
+    top: 456px;
+    left: -0.3px;
+  }
+  .mountain4 img {
+    width: 91px;
+    height: 571px;
+  }
+  /* ГОРА9 */
+  .gora6 {
+    width: 126px;
+    height: 426px;
+    top: 693px;
+    left: 0px;
+  }
+  .gora6 img {
+    width: 126px;
+    height: 426px;
+  }
+  /* ГОРА10 */
+  .gora7 {
+    width: 153px;
+    height: 107px;
+    top: 612px;
+    left: 91px;
+  }
+  .gora7 img {
+    width: 157px;
+    height: 218px;
+  }
+  /* ГОРА11 */
+  .g9 {
+    width: 177px;
+    height: 334px;
+    top: 467px;
+    right: 0px;
+  }
+  .g9 img {
+    width: 177px;
+    height: 334px;
+  }
+  .gora8 {
+    width: 177px;
+    height: 334px;
+    top: 467px;
+    right: 0px;
+  }
+  .gora8 img {
+    width: 177px;
+    height: 334px;
+  }
+  /* ГОРА12 */
+  .gora9 {
+    width: 191px;
+    height: 364px;
+    top: 626px;
+    right: 95px;
+  }
+  .gora9 img {
+    width: 203px;
+    height: 378px;
+  }
+  .nosok1 {
+    width: 99px;
+    height: 92px;
+    top: 848px;
+    right: 109px;
+  }
+  .nosok1 img {
+    width: 105px;
+    height: 88px;
+  }
+  .nosok2 {
+    width: 99px;
+    height: 92px;
+    top: 848px;
+    right: 109px;
+    animation: ani 1s linear infinite;
+  }
+  .nosok2 img {
+    width: 105px;
+    height: 88px;
+  }
+  @keyframes ani {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА13 */
+  .gora10 {
+    width: 97px;
+    height: 240px;
+    top: 677px;
+    right: 0px;
+  }
+  .gora10 img {
+    width: 96px;
+    height: 240px;
+  }
+  .var {
+    width: 80px;
+    height: 150px;
+    top: 716px;
+    right: 0px;
+  }
+  .var img {
+    width: 80px;
+    height: 150px;
+  }
+  .var2 {
+    width: 80px;
+    height: 150px;
+    top: 716px;
+    right: 0px;
+    animation: anim 1s linear infinite;
+  }
+  .var2 img {
+    width: 80px;
+    height: 150px;
+  }
+  @keyframes anim {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА14 */
+  .gora11 {
+    width: 203px;
+    height: 437px;
+    bottom: 0px;
+    left: -14px;
+  }
+  .gora11 img {
+    width: 203px;
+    height: 437px;
+  }
+  .scarf1 {
+    width: 168px;
+    height: 344px;
+    bottom: 37px;
+    left: -12px;
+  }
+  .scarf1 img {
+    width: 182px;
+    height: 371px;
+  }
+  .scarf2 {
+    width: 168px;
+    height: 344px;
+    bottom: 37px;
+    left: -12px;
+    animation: anima 1s linear infinite;
+  }
+  .scarf2 img {
+    width: 182px;
+    height: 371px;
+  }
+  @keyframes anima {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА15 */
+  .gora12 {
+    width: 262px;
+    height: 302px;
+    bottom: 0px;
+    left: 64px;
+  }
+  .gora12 img {
+    width: 262px;
+    height: 302px;
+  }
+  .hat1 {
+    width: 207px;
+    height: 161px;
+    bottom: 12px;
+    left: 74px;
+  }
+  .hat1 img {
+    width: 207px;
+    height: 161px;
+  }
+  .hat2 {
+    width: 207px;
+    height: 161px;
+    bottom: 12px;
+    left: 74px;
+    animation: animat 1s linear infinite;
+  }
+  .hat2 img {
+    width: 207px;
+    height: 161px;
+  }
+  @keyframes animat {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА16 */
+  .gora13 {
+    width: 200px;
+    height: 226px;
+    bottom: 212px;
+    left: 195px;
+  }
+  .gora13 img {
+    width: 240px;
+    height: 209px;
+  }
+  .nos1 {
+    width: 59px;
+    height: 88px;
+    bottom: 290px;
+    left: 270px;
+  }
+  .nos1 img {
+    width: 62px;
+    height: 86px;
+  }
+  .nos2 {
+    width: 59px;
+    height: 88px;
+    bottom: 290px;
+    left: 270px;
+    animation: animati 1s linear infinite;
+  }
+  .nos2 img {
+    width: 62px;
+    height: 86px;
+  }
+  @keyframes animati {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  /* ГОРА17 */
+  .gora14 {
+    width: 64px;
+    height: 190px;
+    bottom: 232px;
+    right: 0px;
+  }
+  .gora14 img {
+    width: 64px;
+    height: 190px;
+  }
+  /* ГОРА18 */
+  .gora15 {
+    width: 188px;
+    height: 232px;
+    bottom: 80px;
+    left: 208px;
+  }
+  .gora15 img {
+    width: 209px;
+    height: 229px;
+  }
+  /* ГОРА19 */
+  .gora16 {
+    width: 123px;
+    height: 93px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .gora16 img{
+    width: 123px;
+    height: 93px;
+  }
+  .content {
+    width: 124px;
+    height: 95px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .content p {
+    top: 19px;
+    left: 28px;
+    font-size: 10px;
+    margin-top: 0.6px;
+    margin-bottom: 2.4px;
+  }
+  .content img {
+    bottom: 0.9px;
+    right: 1.2px;
+    width: 76px;
+  }
+  /* ТЕКСТ */
+  .container {
+    top: 587px;
+    left: 57px;
+    width: 389px;
+    height: 13px;
+  }
+  .text {
+    font-size: 10px;
+  }
+
+}
